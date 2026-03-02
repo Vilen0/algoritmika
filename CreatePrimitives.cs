@@ -7,7 +7,7 @@ public class CreatePrimitives : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Cоздание фигуры, напоминающей Стива из Minecraft
+        //CРѕР·РґР°РЅРёРµ С„РёРіСѓСЂС‹, РЅР°РїРѕРјРёРЅР°СЋС‰РµР№ РЎС‚РёРІР° РёР· Minecraft
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0, 0, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 1, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0.5f, 1, 0);
